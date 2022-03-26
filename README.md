@@ -1,4 +1,4 @@
-Getting started with this app.
+Getting started with this app.__
 Install all the required dependencies as well as add all th ext CDN.
 run this command on command line i.e npm start.
 Add friend Name as User.
