@@ -1,0 +1,40 @@
+{/* <Row className="mt-5" >
+                <Col className='col-md-12 AddUser'>
+
+
+                    <form onSubmit={handleSubmit(onSubmit)}>
+                        <h2 className='mb-3'><i className="fas fa-user-plus me-2"></i>Add Users</h2>
+                        <div className='d-flex flex-column flex-md-row justify-content-center'>
+                            <input {...register("fullName", { required: true, maxLength: 50 })} placeholder="Enter name" required />
+                            <input type="submit" value="Add User" />
+                        </div>
+                    </form>
+
+                    <Row xs={1} md={4} className="g-4 mx-auto my-3">
+                        {
+                            users[0]?.map(user => <SingleUser user={user} key={user.fullName}></SingleUser>)
+                        }
+                    </Row>
+                </Col>
+
+                <Col className='="col-md-12 mt-5 SetRelation'>
+                    <h2 className='mb-3'><i className="fas fa-people-arrows me-2"></i>Set Relationship</h2>
+                    <Row md={12} >
+                        <Col>
+                            <SelectUser users={users}></SelectUser>
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
+
+
+            <Col className='CheckRelation col-md-12 mt-5'>
+                <div className="mt-5 " data-aos="fade-right">
+                    <h2 className='mb-3'><i className="fas fa-check-double me-2"></i>Check Relationship</h2>
+                    <Row md={12} className="" >
+
+                        <CheckRelatonship users={users}></CheckRelatonship>
+
+                    </Row>
+                </div>
+            </Col> */}
