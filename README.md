@@ -5,3 +5,4 @@ Add friend Name as User.<br />
 Set the relationship between them.<br />
 Then check their relationship status.
 
+![Screenshot](screenshot.png)
